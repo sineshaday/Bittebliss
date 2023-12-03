@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Food Tips and Recipes App</title>
+</head>
+<body>
+    <h1>Food Tips and Recipes App</h1>
+    <form action="/explore" method="post">
+        <label for="cuisine">Preferred Cuisine:</label>
+        <input type="text" id="cuisine" name="cuisine" placeholder="e.g., Italian, Mexican" required>
+
+        <label for="ingredient">Have at Home:</label>
+        <input type="text" id="ingredient" name="ingredient" placeholder="e.g., tomatoes, chicken" required>
+
+        <label for="dietary">Dietary Restrictions:</label>
+        <input type="text" id="dietary" name="dietary" placeholder="e.g., vegetarian, gluten-free">
+
+        <button type="submit">Explore Tips and Recipes</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
